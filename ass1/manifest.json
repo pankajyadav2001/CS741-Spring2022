@@ -1,0 +1,20 @@
+{
+    "name": "Detect XSS",
+    "description": "This extension detects and blocks XSS whole script injection",
+    "version": "1.0",
+    "manifest_version": 2,
+    
+    "permissions": [
+		"<all_urls>",
+		"webRequest",
+		"webRequestBlocking"
+  	],
+    
+    "background": {
+		"scripts": ["background.js", "adblock.js"]
+  	},
+    
+    "browser_action": {
+        "default_icon": "a.png"
+    }
+}
