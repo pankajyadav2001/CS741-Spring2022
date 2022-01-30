@@ -1,0 +1,12 @@
+CS741 : Assignment 1
+
+Google Chrome extension to detect and block XSS whole script injection, injected through GET & POST form data requests.
+The script background.js blocks whole script XSS injection, whereas script adblock.js blocks the google ad on the website learncbse.in
+
+Our Team:
+Name 			Roll NO
+Pankaj 			180050070
+Raaghav Raaj 		180050082
+Shashank Agarwal 	180050096
+C Nikhil 		180070016 
+
